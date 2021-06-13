@@ -1,0 +1,51 @@
+body {
+    background-color:#f7f7f7
+}
+
+
+
+.countries {
+    margin: 0 200px;
+}
+
+
+.countries li {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 5px 0;
+    list-style: none;
+}
+
+.details {
+    position:fixed;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0 0 10px 10px #3838381a;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 35px;
+    display: none;
+}
+.close-btn {
+    margin-top: -58px;
+    margin-right: -52px;
+    font-size: 30px;
+    font-weight: 600;   
+    text-align: right;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+}
+table td {
+    padding: 5px;
+    border: 1px solid #c5c5c5;
+}
